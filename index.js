@@ -23,3 +23,7 @@ function prependKitten(name) {
   var moreKittens = [name, ...kittens];
 return moreKittens;
 }
+function removeLastKitten() {
+  var lessKittens = kittens.pop();
+  return lessKittens;
+}
